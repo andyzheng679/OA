@@ -1,12 +1,14 @@
 import ArraysAndHashing.ContainsDuplicate;
+import ArraysAndHashing.IsAnagram;
 
 public class Main {
     public static void main(String[] args) {
-        int[] input = {1, 2, 3, 3};
-        int[] input2 = {1, 2, 3, 4};
 
-        System.out.println(ContainsDuplicate.containsDuplicate(input));
-        System.out.println(ContainsDuplicate.containsDuplicate(input2));
+        System.out.println(ContainsDuplicate.containsDuplicate(new int[]{1,2,3,3}));
+        System.out.println(ContainsDuplicate.containsDuplicate(new int[]{1,2,3,4}));
+
+        System.out.println(IsAnagram.isAnagram("racecar", "carrace"));
+        System.out.println(IsAnagram.isAnagram("jar", "jam"));
 
     }
 }
