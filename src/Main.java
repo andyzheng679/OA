@@ -1,20 +1,23 @@
 import ArraysAndHashing.ContainsDuplicate;
 import ArraysAndHashing.IsAnagram;
+import ArraysAndHashing.TwoSum;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+//        System.out.println(ContainsDuplicate.containsDuplicate(new int[]{1,2,3,3}));
+//        System.out.println(ContainsDuplicate.containsDuplicate(new int[]{1,2,3,4}));
+//
+//        System.out.println(IsAnagram.isAnagram("racecar", "carrace"));
+//        System.out.println(IsAnagram.isAnagram("jar", "jam"));
+//
+//        System.out.println(numOfLetters("asdas asd as  Hello, world!"));
+//        System.out.println(Arrays.toString(sort(new int[]{5,3,6,1,0})));
 
-        System.out.println(ContainsDuplicate.containsDuplicate(new int[]{1,2,3,3}));
-        System.out.println(ContainsDuplicate.containsDuplicate(new int[]{1,2,3,4}));
-
-        System.out.println(IsAnagram.isAnagram("racecar", "carrace"));
-        System.out.println(IsAnagram.isAnagram("jar", "jam"));
-
-        System.out.println(numOfLetters("asdas asd as  Hello, world!"));
-        System.out.println(Arrays.toString(sort(new int[]{5,3,6,1,0})));
-
+        System.out.println(Arrays.toString(TwoSum.twoSum(new int[]{3,4,5,6}, 7)));
+        System.out.println(Arrays.toString(TwoSum.twoSum(new int[]{4,5,6}, 10)));
+        System.out.println(Arrays.toString(TwoSum.twoSum(new int[]{5,5}, 10)));
     }
 
 
@@ -46,7 +49,6 @@ public class Main {
                 }
             }
         }
-
         return input;
     }
 }
